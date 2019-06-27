@@ -1,0 +1,171 @@
+$nav1Color: #FFF2F1;
+$nav2Color: #BA89C0;
+$textColor: #928DD2;
+$transparentColor: rgba(255,255,255,.5);
+
+nav:first-child {
+  padding: 0;
+}
+
+body {
+  font-family: Oswald;
+}
+
+footer {
+  background-color: $nav2Color;
+}
+
+hr {
+  margin: 0 15%;
+}
+
+.nav-text {
+  margin: auto;
+  color: $nav2Color;
+  letter-spacing: 1px;
+}
+
+.cursive-logo {
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-bg1 {
+  background-color: $nav1Color;
+}
+
+.navbar-bg2 {
+  background: transparent;
+}
+
+.nav-item {
+  letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+  color: $nav1Color !important;
+}
+
+.scrolled {
+  background-color: $nav2Color;
+  transition: background 500ms;
+}
+
+.fixed-top2 {
+  margin-top: 24px;
+}
+
+.main-img {
+  margin-top: 10px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 74%;
+  left: 76%;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.btn-outline-success {
+  color: $nav1Color;
+  border-color: $nav1Color;
+}
+
+.btn-outline-success:hover {
+  color: $nav2Color;
+  background-color: $nav1Color;
+  border-color: $nav1Color;
+}
+
+.story-header {
+  margin-top: 0;
+  padding: 100px 0 15px 0;
+  font-family: Pacifico;
+  color: $nav2Color;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.story-paragraph {
+  margin-bottom: 80px;
+  padding: 0 0 20px 0;
+  color: $textColor;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.section-color {
+  background-color: $nav1Color;
+}
+
+.barHeader {
+  font-family: Pacifico;
+  color: $nav2Color;
+  font-weight: 100;
+}
+
+.barParagraph {
+  padding-bottom: 20px;
+  color: $textColor;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.btn-outline-primary {
+  color: $nav2Color;
+  border-color: $nav2Color;
+}
+
+.btn-outline-primary:hover {
+  color: $nav1Color;
+  background-color: $nav2Color;
+  border-color: white;
+}
+
+.footer-links {
+  color: $transparentColor;
+  letter-spacing: 0.5px;
+}
+
+.footer-links:hover {
+  text-decoration: none;
+  color: $nav1Color;
+  letter-spacing: 0.5px;
+}
+
+.footer-paragraph {
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  color: $transparentColor;
+}
+
+.footer-media {
+  color: $transparentColor;
+}
+
+.footer-media:hover {
+  color: $nav1Color;
+}
+
+.footer-copyright {
+  letter-spacing: 1px;
+  color: $transparentColor;
+  background-color: #af7ab5;
+  //background-color: #aa71b1;
+}
+
+@media (max-width: 989px) {
+  .navbar-bg2 {
+    background-color: $nav2Color;
+  }
+}
